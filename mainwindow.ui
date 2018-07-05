@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1132</width>
+    <height>563</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="startButt">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>220</y>
+      <width>121</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Begin (B)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="countDownLabel">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>70</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="imgLabel_1">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>20</y>
+      <width>271</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Computer</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="imgLabel_2">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>20</y>
+      <width>271</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Player</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>120</y>
+      <width>59</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>VS</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="webcamLabel_1">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>330</y>
+      <width>141</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>webcam_1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="webcamLabel_2">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>330</y>
+      <width>141</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>webcam_2</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="webcamLabel_3">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>330</y>
+      <width>141</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>webcam_3</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="webcamLabel_0">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>290</y>
+      <width>291</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>webcam_0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>20</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Scoreboard</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>60</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Machine</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>60</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Man</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="scoreLabel_machine">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>90</y>
+      <width>59</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="scoreLabel_man">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>90</y>
+      <width>59</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1132</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
