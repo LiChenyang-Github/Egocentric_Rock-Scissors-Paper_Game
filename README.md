@@ -8,7 +8,7 @@ Of course, you can easily move the interface to any system with caffe environmen
 We use MobileNet as our classification network, which requires around 200MB memory (The input image is 224\*224). Your can train a new model using the EgoGesture dataset that I will introduce below if needed.       
 
 The following is a demo:          
-<img src="video/demo_video.gif" height="168" width="320">          
+<img src="video/demo_video.gif" height="480" width="640">          
 
 ### Dataset     
 I choose 3 kinds of gesture from our [EgoGesture dataset](http://www.hcii-lab.net/data/SCUTEgoGesture/index.htm) to train the caffemodel. EgoGesture dataset totally includes 16 kinds of gesture, 11 single hand gesture and 5 double hand gesture.       
